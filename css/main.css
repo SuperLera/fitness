@@ -2,6 +2,7 @@
 @import url('layout/normalize.css');
 @import url('layout/base.css');
 
+@import url('blocks/welcome.css');
 @import url('blocks/header.css');
 @import url('blocks/logo.css');
 @import url('blocks/sidebar.css');
@@ -18,8 +19,8 @@
 @import url('blocks/insert.css');
 @import url('blocks/form.css');
 @import url('blocks/services.css');
-@import url('blocks/partners.css');
-@import url('blocks/welcome.css');
+@import url('blocks/partners.css')
+
 
 
 

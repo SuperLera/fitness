@@ -1,5 +1,5 @@
 .insert {
-  background: url('/img/znak.png') repeat #131415;
+  background: url('img/znak.png') repeat #131415;
 }
 .insert__container {
   padding: 0 90px 0 90px;

@@ -15,7 +15,7 @@
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
- 
+
 .auth__container {
   position: absolute;
   top: 50%;
@@ -31,7 +31,7 @@
 }
 
 .welcome__btn {
-  padding: 17px 21px 16px; 
+  padding: 17px 21px 16px;
   text-transform: uppercase;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
@@ -42,7 +42,7 @@
   border-radius: 3px;
   background: #f89513;
   text-align: center;
-} 
+}
 .welcome__btn:hover {
   background: #131415;
 }
