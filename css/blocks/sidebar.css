@@ -72,7 +72,7 @@
   height: 100%;
   opacity: 0;
   transition: 0.3s cubic-bezier(.4,-0.37,.56,1.4);
-  background: url('img/menu_sprites.png')
+  background: url('../../img/menu_sprites.png')
 }
 
 .sidebar__item-icon--pulse:before {
