@@ -1,0 +1,23 @@
+.partners__container {
+  padding: 0 90px 83px 90px;
+}
+.partners__title {
+  text-align: left;
+  margin-bottom: 37px;
+}
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.partners__item {
+  width: calc(100% / 3 - 50px);
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+  filter: grayscale(100%);
+}
+.partners__item:hover {
+  filter: none;
+}

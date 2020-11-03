@@ -1,0 +1,28 @@
+@import url('layout/fonts.css');
+@import url('layout/normalize.css');
+@import url('layout/base.css');
+
+@import url('blocks/header.css');
+@import url('blocks/logo.css');
+@import url('blocks/sidebar.css');
+@import url('blocks/contacts.css');
+@import url('blocks/banner.css');
+@import url('blocks/features.css');
+@import url('blocks/feeds.css');
+@import url('blocks/pagination.css');
+@import url('blocks/footer.css');
+@import url('blocks/authorship.css');
+@import url('blocks/socail-media.css');
+@import url('blocks/breadcrumbs.css');
+@import url('blocks/comments.css');
+@import url('blocks/insert.css');
+@import url('blocks/form.css');
+@import url('blocks/services.css');
+@import url('blocks/partners.css');
+@import url('blocks/welcome.css');
+
+
+
+
+
+

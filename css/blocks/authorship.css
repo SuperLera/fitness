@@ -1,0 +1,17 @@
+.authorship {
+  color: #fff;
+  width: 280px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.loftschool__link {
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.loftschool__link:hover {
+  color: #f89513;
+  text-decoration: none;
+}

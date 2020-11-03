@@ -1,0 +1,86 @@
+.contacts {
+  color: #fff;
+  text-align: right;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+}
+
+.contacts__phone {
+  color: inherit;
+  font-size: 21px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  }
+
+.contacts__working-hours {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgba(248, 149, 19, 0.7);
+  /* display: block; */
+}
+.dropdown:hover .contacts__working-hours {
+  color: rgba(255, 255, 255, 0.7);
+}
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropdown__menu{
+  left: -50px;
+  opacity: 1;  
+}
+
+.dropdown__menu {
+  position: absolute;
+  /* background-image: linear-gradient(to bottom, #ffffff, #e9d4b9);   */
+  background: #fff;  
+  padding: 22px 18px 17px 20px;
+  width: 165px;
+  top: 100%;
+  left: -5000px; 
+  border-radius: 3px;
+  box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 17.5px;
+  opacity: 0;
+  transition: opacity 0.5s;  
+  /* display: none; */
+}
+
+.dropdown__menu:before {
+  content: "";
+  display: block;
+  height: 20px;
+  left: 0;
+  right: 0;
+  top: -19px; 
+  position: absolute;
+}
+.dropdown__menu:after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  right: 3px;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #fff;
+  border-left: 8px solid transparent;
+}
+
+.dropdown__item {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+  color: #f89513;
+  margin-bottom: 12px;
+}
+
+.dropdown__item--dinner {
+  color: #221f1f;
+  font-weight: normal;
+  margin-bottom: 0;
+}

@@ -1,0 +1,24 @@
+.insert {
+  background: url('/img/znak.png') repeat #131415;
+}
+.insert__container {
+  padding: 0 90px 0 90px;
+}
+.insert__info{
+  padding: 30px 106px 25px;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+}
+.insert__info-text{
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.67;
+  text-align: left;
+}
+.insert__info-text b{
+  color: #f89513;
+  font-weight: bold;
+}
